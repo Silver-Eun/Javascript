@@ -1,0 +1,10 @@
+body {
+  border: 10px solid red;
+  min-height: 100vh;
+}
+
+section > div {
+  padding: 20px;
+  background-color: gold;
+  margin: 10px;
+}
