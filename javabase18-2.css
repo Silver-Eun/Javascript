@@ -1,0 +1,10 @@
+div.a {
+  width: 50%;
+  height: 500px;
+  background-color: red;
+  border: 100px solid pink;
+}
+
+div.a.b {
+  background-color: green;
+}
