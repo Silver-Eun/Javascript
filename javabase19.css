@@ -1,0 +1,22 @@
+div {
+  padding: 10px;
+  background-color: gold;
+  margin: 10px;
+}
+
+section {
+  border: 10px solid red;
+}
+
+nav {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+nav > article {
+  width: 88%;
+  height: 88%;
+  background-color: blue;
+}

@@ -1,0 +1,12 @@
+article {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+}
+
+article > nav {
+  width: 80%;
+  height: 80%;
+  background-color: red;
+}
