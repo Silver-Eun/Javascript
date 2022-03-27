@@ -1,0 +1,12 @@
+section {
+  border: 10px solid red;
+}
+
+section > div {
+  border: 10px solid blue;
+}
+
+section > div > div {
+  border: 10px solid yellow;
+  height: 50px;
+}

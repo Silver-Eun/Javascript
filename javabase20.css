@@ -1,0 +1,7 @@
+section {
+  border: 10px solid red;
+}
+section div {
+  border: 10px solid blue;
+  height: 50px;
+}
