@@ -1,0 +1,26 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
+
+div.a {
+  top: 0;
+  left: 0;
+}
+
+div.b {
+  top: 0;
+  left: 90%;
+}
+
+div.c {
+  top: 90%;
+  left: 0;
+}
+
+div.d {
+  top: 90%;
+  left: 90%;
+}
