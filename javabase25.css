@@ -1,0 +1,13 @@
+section {
+  width: 800px;
+  height: 500px;
+  border: 10px solid blue;
+  position: relative;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+}
