@@ -1,0 +1,8 @@
+div.a {
+  border: 10px solid red;
+  margin: 10px;
+}
+
+div.a.active {
+  border-color: black;
+}
