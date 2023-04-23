@@ -1,0 +1,14 @@
+body {
+  height: 5000px;
+}
+
+.hide {
+  display: none;
+}
+
+.scroll-top {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  margin: 0;
+}
