@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <select v-model="selected_num">
+        <option v-for="n in 8">{{n+1}}</option>
+      </select>
+      <br />
+      {{selected_num}}
+    </div>
+
+    <!-- <div id="app">
+      <select @change="selected">
+        <option :value="n" :title="n" v-for="n in 8">{{n+1}}</option>
+      </select>
+      <br />
+      {{ value }}
+    </div> -->
+
+    <!-- <select name="" id=""></select>
+    <div id="txt"></div> -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="using_jquery13.js"></script>
+</html>
