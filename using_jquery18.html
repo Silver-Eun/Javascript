@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="using_jquery18.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/x-template" id="grid-template">
+      <table>
+          <thead>
+              <tr>
+                  <th v-for="key in columns">
+                      {{ key | capitalize }}
+                  </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr v-for="entry in filteredData">
+                  <td v-for="key in columns">
+                      {{entry[key]}}
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+    </script>
+    <div id="app">
+      <grid :list-data="myListData1"></grid>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="using_jquery18.js"></script>
+</html>
